@@ -10,7 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "loveloom": "file:",
-    "nodemon": "^3.1.7"
+    "loveloom": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1"
   }
 }
