@@ -1,0 +1,16 @@
+{
+  "name": "loveloom_back_end",
+  "version": "1.0.0",
+  "description": "it is detailed backend of loveloom project that is consultancy website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loveloom",
+    "index",
+    "dev"
+  ],
+  "author": "raj kishan singh (xostar)",
+  "license": "ISC"
+}
