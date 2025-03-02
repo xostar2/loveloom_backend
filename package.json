@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "it is detailed backend of loveloom project that is consultancy website ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "loveloom",
@@ -12,5 +13,8 @@
     "dev"
   ],
   "author": "raj kishan singh (xostar)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "loveloom_back_end": "file:"
+  }
 }
