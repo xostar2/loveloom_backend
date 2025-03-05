@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "loveloom",
@@ -15,6 +15,10 @@
   "author": "raj kishan singh (xostar)",
   "license": "ISC",
   "dependencies": {
-    "loveloom_back_end": "file:"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "loveloom_back_end": "file:",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
   }
 }
